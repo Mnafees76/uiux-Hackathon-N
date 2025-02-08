@@ -20,7 +20,7 @@ export default function Carttable() {
   }
 
   return (
-    <main className="flex flex-col md:flex-row justify-center items-start w-full min-h-screen p-4 gap-8 md:mt-20  max-w-screen-2xl mx-auto">
+    <main className="flex flex-col md:flex-row justify-center items-start w-full min-h-screen p-4 gap-8 sm:mt-12 max-w-screen-2xl mx-auto">
       {/* Left Side */}
       <div className="w-full md:w-2/3">
         <div className="hidden sm:flex w-full bg-[#FFF9E5] text-xs font-semibold p-2">
@@ -89,7 +89,7 @@ export default function Carttable() {
           </div>
         </div>
         <Link href="/checkout">
-        <button  onClick={() => getCart(item.title, item.size, item.qty)} className="w-full mt-6 outline outline-1 outline-offset-1 outline-black text-[#000000] py-2 rounded active:bg-yellow-600 active:text-white">
+        <button className="w-full mt-6 outline outline-1 outline-offset-1 outline-black text-[#000000] py-2 rounded active:bg-yellow-600 active:text-white">
           Check Out
         </button>
         </Link>

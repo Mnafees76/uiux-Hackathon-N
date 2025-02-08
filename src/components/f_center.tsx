@@ -1,6 +1,6 @@
 export default function Fcenter() {
     return (
-      <main className="bg-[#FAF4F4] max-w-screen-2xl mx-auto">
+      <main className=" bg-[#FAF4F4] max-w-screen-2xl mx-auto mt-5">
         <div className="flex flex-col sm:flex-row justify-center items-center w-full gap-6 sm:gap-3 py-10">
           {/* Free Delivery */}
           <div className="w-full sm:w-[300px] md:w-[360px] h-[200px] pt-10 sm:pt-20 px-6 font-semibold text-center sm:text-left">

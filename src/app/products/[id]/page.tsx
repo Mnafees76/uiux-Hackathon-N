@@ -272,14 +272,14 @@ let products: IProduct[] = [
   },
 ];
 let star = [
-  <IoIosStar />,
-  <IoIosStar />,
-  <IoIosStar />,
-  <IoIosStar />,
-  <FaStarHalf />,
+  <IoIosStar key={1} />,
+  <IoIosStar key={2} />,
+  <IoIosStar key={3}/>,
+  <IoIosStar key={4}/>,
+  <FaStarHalf key={5}/>,
 ];
 
-export default function product_Details() {
+export default function Product_Details() {
   
   
 
@@ -366,17 +366,22 @@ export default function product_Details() {
           <h1 className="font-bold text-2xl">{item.title}</h1>
           <span className="text-[#9F9F9F]">{item.price}</span>
           <div className="flex text-yellow-500 mt-2">
-            <span className="flex mt-1">{star}</span>
-            <div className="w-0.5 h-5 ml-2 bg-[#9F9F9F] mb-2"></div>
-            <span className="ml-5 text-[#9F9F9F]">5 Customer Review</span>
-          </div>
+  <span className="flex mt-1">
+    {star.map((icon, index) => (
+      <span key={index}>{icon}</span>
+    ))}
+  </span>
+  <div className="w-0.5 h-5 ml-2 bg-[#9F9F9F] mb-2"></div>
+  <span className="ml-5 text-[#9F9F9F]">5 Customer Review</span>
+</div>
+
           <p className="text-xs text-[#000000] w-[355px] mt-2">
             Setting the bar as one of the loudest speakers in its class, the
             Kilburn is a compact, stout-hearted hero with a well-balanced audio
             which boasts a clear midrange and extended highs for a sound.
           </p>
           <h2 className="text-[#9F9F9F] mt-3 text-xs">Size</h2>
-          <div className="flex space-x-3 mt-3 text-xs">
+          <div className="flex space-x-3 mt-3 text-xs"key={item.id}>
           {item.size.map((item, id) => (
   <button 
     key={id} 
@@ -472,7 +477,7 @@ export default function product_Details() {
           </div>
         </div>
       </div>
-      <Description />
+      <Description/>
       <RelatedProducts />
       <Footer />
     </div>

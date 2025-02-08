@@ -14,17 +14,14 @@ export default function Navebar() {
     return ( 
          <>
          
-        <main className="flex w-full h-[50px] max-w-screen-2xl mx-auto bg-[#FAF4F4] mt-6">
+        <main className="flex  w-full h-[50px] max-w-screen-2xl mx-auto bg-[#FAF4F4] mt-6">
             <div className="block sm:hidden mt-2 ml-3">
             <SheetSide/>
             </div>
-            {/* Mobile Menu */}
-            <div className="flex justify-between items-center w-full px-4 pt-3">
-                {/* <SheetDemo /> */}
-            </div>
+            
 
             {/* Desktop and Tablet View */}
-            <div className="hidden sm:flex w-full justify-between px-4 md:px-10">
+            <div className="hidden sm:flex w-[70%] px-4 md:px-10">
                 {/* Left side */}
                 <div className="flex items-center md:w-[750px]">
                     <FaSliders />
@@ -36,11 +33,13 @@ export default function Navebar() {
                 </div>
 
                 {/* Right side */}
-                <div className="flex items-center w-[290px]">
+               
+            </div>
+            <div className="hidden sm:flex  items-center w-[300px]">
                     <span className="text-xs">Show</span>
-                    <div className="flex justify-center items-center bg-[#FFFFFF] rounded-md">
+                    <div className="flex justify-center items-center bg-[#FFFFFF] rounded-md mx-3">
                            
-                        <select className="text-xs bg-[#FFFFFF] py-1 px-3 rounded-md">
+                        <select className="text-xs bg-[#FFFFFF] py-1 rounded-md">
                             <option value="1">16</option>
                             <option value="2">32</option>
                             <option value="2">48</option>
@@ -60,7 +59,6 @@ export default function Navebar() {
                         </select>
                     </div>
                 </div>
-            </div>
         </main>
         </>
     );

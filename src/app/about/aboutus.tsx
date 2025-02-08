@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function About_us() {
   return (
-    <main className=" max-w-screen-2xl mx-auto">
+    <main className=" max-w-screen-2xl mx-2">
       <div className="text-center">
         <h1 className="text-4xl font-extrabold mt-5">About Us</h1>
         <p className="mt-2">Get to know us, our mission, and the principles that guide and inspire us.</p>
@@ -14,7 +14,7 @@ export default function About_us() {
             width={300}
             height={300}
             alt="Outdoor Bar Table"
-            className="rounded-md object-cover mx-auto w-full md:w-[500px] md:h-[300px]"
+            className="rounded-md object-cover  w-full md:w-[500px] md:h-[300px] ml-2 sm:ml-0"
           />
         </div>
         <div className="w-full md:w-[50%] md:ml-20 mt-6 md:mt-0 px-2 sm:px-0">
@@ -22,7 +22,7 @@ export default function About_us() {
           <p className="md:w-96">
             We are a committed team focused on providing outstanding services
             and products to our customers. Our goal is to add value and
-            positively impact people's lives by offering creative solutions that
+            positively impact peoples lives by offering creative solutions that
             motivate and empower. With extensive experience, we have earned a
             reputation for quality and reliability. We are dedicated to building
             lasting relationships with our customers, partners, and the
