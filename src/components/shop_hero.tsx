@@ -9,7 +9,7 @@ export default function Hero() {
     <div
 className="absolute inset-0 bg-cover bg-center h-[200px] sm:h-[300px] mx-2 sm:mx-5"
 style={{
-  backgroundImage: "url('/imags/s.hero.jpeg')",
+  backgroundImage: "url('/images/s.hero.jpeg')",
   opacity: 0.8,
   filter: "blur(2px)", // Blur effect add kiya
 }}

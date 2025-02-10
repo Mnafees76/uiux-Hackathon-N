@@ -7,7 +7,7 @@ export default function OurInstagram() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/imags/bg.jpeg')",
+          backgroundImage: "url('/images/bg.jpeg')",
           opacity: 0.3,
         }}
       ></div>

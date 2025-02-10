@@ -10,7 +10,7 @@ export default function About_us() {
       <div className="flex flex-col md:flex-row justify-center items-center w-full mt-10">
         <div className="w-full md:w-[30%]">
           <Image
-            src="/imags/p10.jpeg"
+            src="/images/p10.jpeg"
             width={300}
             height={300}
             alt="Outdoor Bar Table"

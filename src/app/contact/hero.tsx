@@ -9,7 +9,7 @@ export default function Herocon() {
     <div
 className="absolute inset-0 bg-cover bg-center h-[200px] sm:h-[300px] mx-2 sm:mx-5"
 style={{
-  backgroundImage: "url('/imags/s.hero.jpeg')",
+  backgroundImage: "url('/images/s.hero.jpeg')",
   opacity: 0.8,
   filter: "blur(2px)", // Blur effect add kiya
 }}
@@ -21,7 +21,7 @@ style={{
     {/* Rocket Image */}
     <div className="w-full relative flex justify-center items-center mb-20 sm:mb-[85px]">
       <Image
-        src="/imags/sp2.png"
+        src="/images/sp2.png"
         width={80}
         height={80}
         alt="Rocket Single Seater"
