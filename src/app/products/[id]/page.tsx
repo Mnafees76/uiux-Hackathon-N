@@ -15,14 +15,13 @@ import Description from "@/components/Description";
 import RelatedProducts from "@/components/Related Products";
 import Footer from "@/components/footer";
 import { BreadcrumbDemo } from "@/components/breadcrumb";
-import { useRouter } from "next/router";
-import { title } from "process";
-import { SetStateAction, useState } from "react";
-import { useAppDispatch, useAppSelector } from "@/app/store/hooks";
+
+import { useState } from "react";
+import { useAppDispatch,} from "@/app/store/hooks";
 import { Button } from "@/components/ui/button";
-import { addtoCart } from "@/app/store/features/cart";
+
 import { FaPlus, FaMinus } from "react-icons/fa6";
-import { Item } from "@radix-ui/react-dropdown-menu";
+
 import Addtocarttosity from "@/components/addtocarttosity";
 
 interface IProduct {
