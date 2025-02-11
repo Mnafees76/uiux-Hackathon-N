@@ -19,26 +19,26 @@ let products: IProduct[] = [
     title: "Trenton modular sofa_3",
     price: "Rs. 25,000.00",
     id: 1,
-    img_url: "/images/P3.png",
+    img_url: "/images/p3.png",
     
   },
   {
     title: "Granite dining table with dining chair",
     price: "Rs. 25,000.00",
     id: 2,
-    img_url: "/images/P4.png",
+    img_url: "/images/p4.png",
   },
   {
     title: "Outdoor bar table and stool",
     price: "Rs. 25,000.00",
     id: 3,
-    img_url: "/images/P5.png",
+    img_url: "/images/p5.png",
   },
   {
     title: "Plain console with teak mirror",
     price: "Rs. 25,000.00",
     id: 4,
-    img_url: "/images/P6.png",
+    img_url: "/images/p6.png",
   },
   {
     title: "Grain coffee table",

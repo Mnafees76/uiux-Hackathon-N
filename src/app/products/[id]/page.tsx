@@ -46,7 +46,7 @@ let products: IProduct[] = [
     title: "Trenton modular sofa_3",
     price:  25000.00,
     id: 1,
-    img_url: "/images/P3.png",
+    img_url: "/images/p3.png",
     img1: "/images/p3.png",
     img2: "/images/p3.png",
     img3: "/images/p3.png",
