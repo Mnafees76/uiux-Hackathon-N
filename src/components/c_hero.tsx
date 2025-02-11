@@ -18,7 +18,7 @@ export default function Cart_T() {
       {/* Rocket Image */}
       <div className="w-full relative flex justify-center items-center mb-20 sm:mb-[85px]">
         <Image
-          src="/imags/sp2.png"
+          src="/images/sp2.png"
           width={80}
           height={80}
           alt="Rocket Single Seater"
