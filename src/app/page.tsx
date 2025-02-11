@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Hearo from "@/components/Hearo";
 
-import Image from "next/image";
+
 import Products from "./products/page";
 import Mprod from "@/components/Mprod";
 import Asgaardsofa from "@/components/Asgaard sofa";

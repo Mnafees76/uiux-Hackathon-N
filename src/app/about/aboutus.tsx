@@ -14,7 +14,7 @@ export default function About_us() {
             width={300}
             height={300}
             alt="Outdoor Bar Table"
-            className="rounded-md object-cover  w-full md:w-[500px] md:h-[300px] ml-2 sm:ml-0"
+            className="rounded-md object-cover  w-full md:w-[500px] md:h-[300px] sm:ml-0"
           />
         </div>
         <div className="w-full md:w-[50%] md:ml-20 mt-6 md:mt-0 px-2 sm:px-0">

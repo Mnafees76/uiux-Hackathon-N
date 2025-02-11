@@ -16,7 +16,7 @@ export default function OurBlogs() {
         {/* Product 1 */}
         <div className="text-center">
           <Image
-            src="/imags/p8.jpeg"
+            src="/images/p8.jpeg"
             width={300}
             height={300}
             alt="Trenton Modular Sofa"
@@ -33,7 +33,7 @@ export default function OurBlogs() {
         {/* Product 2 */}
         <div className="text-center">
           <Image
-            src="/imags/p9.jpeg"
+            src="/images/p9.jpeg"
             width={300}
             height={300}
             alt="Granite Dining Table"
@@ -53,7 +53,7 @@ export default function OurBlogs() {
         {/* Product 3 */}
         <div className="text-center">
           <Image
-            src="/imags/p10.jpeg"
+            src="/images/p10.jpeg"
             width={300}
             height={300}
             alt="Outdoor Bar Table"

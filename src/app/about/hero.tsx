@@ -7,7 +7,7 @@ export default function Herob() {
     <main className="w-full relative flex flex-col justify-center items-center h-[200px] sm:h-[300px] max-w-screen-2xl mx-auto">
     {/* Background Layer */}
     <div
-className="absolute inset-0 bg-cover bg-center h-[200px] sm:h-[300px] sm:mx-5 ml-3"
+className="absolute inset-0 bg-cover bg-center h-[200px] sm:h-[300px] sm:mx-5 ml-3 mr-3"
 style={{
   backgroundImage: "url('/images/s.hero.jpeg')",
   opacity: 0.8,

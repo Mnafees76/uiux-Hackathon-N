@@ -9,9 +9,9 @@ export default function cart(){
         <div>
              <Header2/>
              <Cart_T/>
-             <Cart/>
-             <Fcenter/>
-             <Footer/>
+              <Cart/>
+              <Fcenter/>
+             <Footer/>  
         </div>
     )
 }
