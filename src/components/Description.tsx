@@ -28,10 +28,10 @@ export default function Description(){
                 <div className="flex justify-center w-full h-60">
                 <div className="flex justify-center items-center w-full h-[200] gap-5 mt-7 px-2 sm:px-0">   
               <div className="w-[450px] bg-[#FFF9E5]">
-                   <Image src={"/imags/ds.png"} width={500} height={500} alt="pic"></Image>
+                   <Image src={"/images/ds.png"} width={500} height={500} alt="pic"></Image>
               </div>
               <div  className="w-[450px] bg-[#FFF9E5]">
-              <Image src={"/imags/ds.png"} width={500} height={500} alt="pic"></Image>
+              <Image src={"/images/ds.png"} width={500} height={500} alt="pic"></Image>
               </div>
               </div>
 

@@ -16,7 +16,7 @@ export default function Hearo() {
       {/* Image Section */}
       <div className="flex justify-center items-center mt-8 sm:mt-0 w-full sm:w-auto">
         <Image
-          src="/imags/hearo.png"
+          src="/images/hearo.png"
           width={400}
           height={400}
           alt="Rocket Single Seater"
