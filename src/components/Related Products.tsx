@@ -46,7 +46,7 @@ export default function RelatedProducts() {
         {products.map((data) => {
           return (
             <div key={data.id} className="flex flex-col items-center">
-             <Link href={`products/${data.id}`}>
+             <Link href={`/products/${data.id}`}>
              <div className="w-[230px] h-[230px] bg-[#FFFFFF] overflow-hidden">
                 <Image
                   src={data.img_url}
