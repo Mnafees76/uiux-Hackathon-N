@@ -13,7 +13,7 @@ let products: IProduct[] = [
     title: "Trenton modular sofa_3",
     price: "Rs. 25,000.00",
     id: 1,
-    img_url: "/images/p3.png", // Changed to lowercase
+    img_url: "/images/P3.png", // Changed to lowercase
   },
   {
     title: "Granite dining table with dining chair",
